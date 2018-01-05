@@ -4217,6 +4217,7 @@ nav {
 
 #top-nav {
   border: 0;
+  width: 100%;
 }
 
 nav.nav-extended {
