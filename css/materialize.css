@@ -2124,7 +2124,7 @@
 }
 
 .white {
-  background-color: #FFFFFF !important;
+  background-color: transparent !important;
 }
 
 .white-text {
@@ -3367,7 +3367,7 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 90%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -4218,6 +4218,11 @@ nav {
 #top-nav {
   border: 0;
   width: 100%;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+
 }
 
 nav.nav-extended {
@@ -4249,7 +4254,7 @@ nav i.material-icons {
 
 nav .nav-wrapper {
   position: relative;
-  height: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 993px) {

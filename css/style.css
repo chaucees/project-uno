@@ -20,6 +20,13 @@ p {
   line-height: 2rem;
 }
 
+.top-nav-links {
+  color: #faf3dd;
+  font-size: 22pt;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
 .button-collapse {
   color: #26a69a;
 }
