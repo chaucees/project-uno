@@ -4215,15 +4215,7 @@ nav {
   margin: auto;
 }
 
-#top-nav {
-  border: 0;
-  width: 100%;
-  background: transparent;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
 
-}
 
 nav.nav-extended {
   height: auto;
@@ -4254,7 +4246,8 @@ nav i.material-icons {
 
 nav .nav-wrapper {
   position: relative;
-  height: auto;
+  height: 60px;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 993px) {
@@ -4338,6 +4331,11 @@ nav ul li {
   float: left;
   padding: 0;
 }
+
+.clearfix {
+  overflow: auto;
+}
+
 
 nav ul li.active {
   background-color: rgba(0, 0, 0, 0.1);

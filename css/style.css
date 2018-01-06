@@ -22,10 +22,31 @@ p {
 
 .top-nav-links {
   color: #faf3dd;
-  font-size: 22pt;
+  font-size:22pt;
   letter-spacing: 2px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
 }
+
+#top-nav {
+  border: 0;
+  background: transparent;
+  width: 100%;
+  height: auto;
+  text-align:center;
+  margin: auto;
+  display: inline-block;
+}
+
+.nav-links {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+}
+
 
 .button-collapse {
   color: #26a69a;
@@ -118,3 +139,12 @@ h6 {
   text-align:center;
 }
 
+.recipes {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  vertical-align: middle;
+  border: black 1px solid;
+}
